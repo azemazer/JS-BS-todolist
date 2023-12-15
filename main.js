@@ -343,3 +343,5 @@ function renderTodos(){
 
 whoArtThou();
 renderTodos()
+
+sessionStorage.setItem("todolist", localStorage.getItem("todolist"));
